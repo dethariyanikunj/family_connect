@@ -1,6 +1,6 @@
 # 🏠 FamilyConnect – Head & Member Registration Module
 
-Welcome to `FamilyConnect`, a Flutter app developed as part of an assignment for Wallet Hunter. This app enables efficient registration and visual management of family structures.
+Welcome to `FamilyConnect`, This app enables efficient registration and visual management of family structures.
 
 ---
 
