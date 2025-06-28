@@ -1,6 +1,7 @@
-# 🏠 FamilyConnect – Head & Member Registration Module
+# 🏠 FamilyConnect
 
-Welcome to `FamilyConnect`, This app enables efficient registration and visual management of family structures.
+Welcome to `FamilyConnect`, This app enables efficient registration and visual management of family
+structures.
 
 ---
 
@@ -8,7 +9,8 @@ Welcome to `FamilyConnect`, This app enables efficient registration and visual m
 
 - **App Name**: FamilyConnect
 - **Package Name**: `com.wallethunter.family_connect`
-- **Description**: A Flutter-based registration system to manage family hierarchies with smart linking, OTP login, and visual family tree export.
+- **Description**: A Flutter-based registration system to manage family hierarchies with smart
+  linking, OTP login, and visual family tree export.
 
 ---
 
@@ -46,8 +48,7 @@ Welcome to `FamilyConnect`, This app enables efficient registration and visual m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dethariyanikunj/familyconnect.git
-   cd familyconnect
+   git clone https://github.com/dethariyanikunj/family_connect.git
    ```
 
 2. Get packages:
@@ -56,7 +57,9 @@ Welcome to `FamilyConnect`, This app enables efficient registration and visual m
    ```
 
 3. Firebase Setup:
-    - Add `firebase_options.dart`
+    - Add `firebase_options.dart` to `lib/`
+    - Place `google-services.json` in `android/app/`
+    - Place `GoogleService-Info.plist` in `ios/Runner/`
     - Enable **Phone Auth**, **Crashlytics** in Firebase Console
     - Setup Emulator or use test phone numbers (see below)
 
@@ -83,19 +86,21 @@ lib/
 ## 📂 Firebase Firestore
 
 - Family data saved under:
+
 ```
 family_heads/{headPhoneNo}/family_members/{memberId}
 ```
+
 - Family tree and delete functionality restricted to head's phone number
 
 ---
 
 ## 🧪 Sample Credentials (for Testing)
 
-| Phone Number      | OTP    |
-|-------------------|--------|
-| +91 1111111111    | 123456 |
-| +91 2222222222    | 123456 |
+| Phone Number   | OTP    |
+|----------------|--------|
+| +91 1111111111 | 123456 |
+| +91 2222222222 | 123456 |
 
 Ensure these test numbers are pre-configured in Firebase Console.
 
@@ -103,11 +108,12 @@ Ensure these test numbers are pre-configured in Firebase Console.
 
 ## 🎬 Demo Video
 
-📺 [Watch Demo](https://your-video-link-here.com)
+📺 [Watch Demo](https://drive.google.com/file/d/1jMKpdOdXNlWN6XXdnlnMDJLwxUMP4F1D/view?usp=sharing)
 
 ---
 
 ## 👨‍💻 Developer
+
 **Nikunj Dethariya**  
 10+ years of experience in mobile development  
 📧 [Contact via email](mailto:dethariyanikunj@gmail.com)
@@ -115,4 +121,5 @@ Ensure these test numbers are pre-configured in Firebase Console.
 ---
 
 ## 📄 License
+
 MIT – use freely with attribution.
