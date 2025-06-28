@@ -1,0 +1,5 @@
+
+enum Option {
+  addMember,
+  viewTree,
+}
